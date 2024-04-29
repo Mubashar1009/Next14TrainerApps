@@ -67,10 +67,10 @@ export const ProfileDetail = () => {
         {ProfileDetailData.map((detail, index) => (
           <tr key={index} className="my-[13px] border-b-[1px] ">
             <td className="   flex justify-center my-[13px]">{detail.image}</td>
-            <td className=" text-center">{detail.name}</td>
-            <td className=" text-center">{detail.phoneNumber}</td>
-            <td className=" text-center">{detail.email}</td>
-            <td className=" text-center">{detail.verify}</td>
+            <td className=" text-center text-black">{detail.name}</td>
+            <td className=" text-center text-black">{detail.phoneNumber}</td>
+            <td className=" text-center text-black">{detail.email}</td>
+            <td className=" text-center text-black">{detail.verify}</td>
             <td className=" text-center ">
               <div className="flex gap-[7px] justify-center items-start">
                 {detail.approvalCorrect}
